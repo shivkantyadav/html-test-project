@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en"> <!-- used for machine interpretation voice language models and search engines about which language content the web page is--> 
+
+<head>
+    <meta charset ="utf-8"> <!-- utf -8 everything covers in this format numbers format etc universal for symbols, meta is sued to define the properties of website how it needs to be handled refreshed or crawled or be used on different devices-->
+    <meta name ="author" content="dave gray">
+    <meta name="description" content ="the official website for littile taco soup">
+  <title>the littile taco shop</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css"><!-- used to link css and other webpages,icons which can format or affect the whole web page-->
+</head>
+<body>
+    <header>
+        <h1> welcome to the title taco shop</h1>
+        <nav> <!--to navigate within or different page we provide structure and links-->
+            <ul> <!--unordered list not numbers but symbols-->
+                <li>
+                    <a href="#about"> <abbr title ="the little taco shop">LTS </abbr></a> <!-- abbr is used to give hovering text over the link or tite stating what its exactly about or pointing to-->
+                </li><!---link-->
+                <li>
+                    <a href="#menu"> our menu </a><!--for # for the same page navigation-->
+                </li>
+                <li>
+                    <a href="hours.html"> store hours</a> <!--for the different link or page navigation-->
+                </li>
+                <li>
+                    <a href="contact.html">contact us  </a> 
+                </li>    
+            </ul>
+        </nav>
+            <figure> <!--to add images  from source and use its syntaxes to give alt text and dimensions etc-->
+                <img src="img/tacos_and_drink_400x267.png" alt="tacos and a drink " title="we love tacos" width="400" height="267"><!--alt gives a text when image is not loading on webpage telling what the image was about which didnt loaded-->
+                <figcaption>
+                    tacos and drink  <!--figure caption below the image -->
+                </figcaption>
+            </figure>
+    </header>
+    <hr>
+    <main>
+        <article id="about">
+            <h2> About <abbr title="the littile taco shop">LTS</abbr></h2>
+            <p>
+                <abbr title="the littile taco shop">LTS</abbr>was founded in<time datetime="2022">2022</time>. our shop was built from<strong> love from tacos 🌮🌮🌮🌮</strong>. we hope our shop addsa unique and interesting place t our little town
+            </p>
+            <aside>
+                <h3> taco trivia</h3>
+                <details>
+                    <summary>
+                        when did the first taco appear in the united states
+                    </summary>
+                    <p>
+                        A Global History of Mexican Food is a non-fiction book by Jeffrey Pilcher, published by the Oxford University Press in 2012. Pilcher discusses the history of Mexican cuisine and Tex Mex cuisine as well as perceptions of the concept of "Mexican food" around the world <time datetime="1985">1985</time>
+                        (source: <cite><a href="https://www.w3schools.com">smithsonian magazine</a></cite>)
+                    </p>
+                </details>
+            </aside>
+        </article>
+        <hr>
+        <article id="menu">
+            <h2>
+                our menu
+            </h2>
+            <table>
+                <caption> our tacos</caption>
+                <thead>
+                    <tr>
+                        <th>Tacos</th>
+                        <th scope="col"><abbr title="quantity">qty</abbr></th>
+                        <th scope="col">price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">crunchy</th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>$2.50</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>$3.50</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="3">soft</th>
+                    <td>1</td>
+                    <td>$5.50</td>
+                </tr>
+                <tr>
+                <td>2</td>
+                <td>$6.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$8.50</td>
+            </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            chips &amp; salsa $2
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">back to top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>copyright &copy; the little taco shop</p> 
+    </footer>
+</body>
+</html>
